@@ -1,0 +1,30 @@
+.summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.summary-card {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.summary-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12) !important; 
+}
+
+.card-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.custom-navbar {
+    background-color: #e7f1ff !important; 
+}
+
+[data-bs-theme="dark"] .custom-navbar {
+    background-color: #2b3035 !important;
+}
