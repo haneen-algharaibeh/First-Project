@@ -65,9 +65,7 @@ A full-stack expense tracking web application that allows users to manage their 
       <img src="Screenshots\desktop\interface-desktop-dark.png" width="700">
     </p>
 
-    <p align="center">
-      <img src="Screenshots\desktop\interface-desktop-light.png" width="700">
-    </p>
+
 
   **mobile
     <p align="center">
